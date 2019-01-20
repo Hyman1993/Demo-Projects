@@ -1,4 +1,4 @@
-# Demo Projects for  beginners 
+# Demo Projects for  Beginners 
 From 2019.01 ~ now </br>
 No.1 springboot in action<br/>
 No.2 thymeleaf-in-action<br/>
