@@ -1,5 +1,5 @@
-# demo-projects
-<h3><strong>demo projects for  beginners</strong></h3><br/>
+# demo projects for  beginners 
+From 2019.01 ~ now </br></br>
 No.1 springboot in action<br/>
 No.2 thymeleaf-in-action<br/>
 No.3 jpa-in-action<br/>
