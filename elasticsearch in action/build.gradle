@@ -1,0 +1,34 @@
+buildscript {
+	ext {
+		springBootVersion = '2.0.7.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.example'
+version = '1.0.0'
+sourceCompatibility = 1.8
+
+repositories {
+		mavenCentral()
+}
+
+
+dependencies {
+	implementation('org.springframework.boot:spring-boot-starter-web')
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+     // 添加 Spring Data Elasticsearch 的依赖
+     implementation('org.springframework.boot:spring-boot-starter-data-elasticsearch')
+     // 添加JNA的依赖
+     implementation('net.java.dev.jna:jna:4.3.0')
+}
