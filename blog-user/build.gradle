@@ -1,0 +1,50 @@
+buildscript {
+	ext {
+		springBootVersion = '2.0.7.RELEASE'
+	}
+	// 自定义  Thymeleaf 和 Thymeleaf Layout Dialect 的版本
+	ext['thymeleaf-layout-dialect.version'] = '2.2.2'
+	// 自定义hibernate的版本
+    ext['hibernate.version'] = '5.2.8.Final'
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.penghuang.blog'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+    // 添加 Thymeleaf 的依赖
+    implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
+	// 该依赖对于编译发行是必须的
+	implementation('org.springframework.boot:spring-boot-starter-web')
+	// 该依赖对于编译测试是必须的，默认包含编译产品依赖和编译时依
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	// 添加  Spring Security 依赖
+	implementation('org.springframework.boot:spring-boot-starter-security')
+    // 添加Spring Data JPA的依赖
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    // 添加Thymeleaf Spring Security 依赖
+     implementation('org.thymeleaf.extras:thymeleaf-extras-springsecurity4:3.0.2.RELEASE')
+    // 添加MYSQL连接驱动的依赖
+        implementation('mysql:mysql-connector-java:6.0.5')
+     // 添加H2的依赖
+       runtime('com.h2database:h2:1.4.193')
+     // 添加Apache Commons Lang 依赖
+       implementation('org.apache.commons:commons-lang3:3.5')
+}
