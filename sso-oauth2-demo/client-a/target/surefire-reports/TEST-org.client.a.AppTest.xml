@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="org.client.a.AppTest" time="0.004" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="F:\Java\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\eclipse\workspace\sso-oauth2-demo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\eclipse\workspace\sso-oauth2-demo"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="F:\Java\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2722772893873405112.tmp"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="F:\Java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/Java/jdk/bin/../jre/bin/server;F:/Java/jdk/bin/../jre/bin;F:/Java/jdk/bin/../jre/lib/amd64;F:\app\orcl\product\12.1.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\?件安装\其它?~1\Spinfire\Actify\Kernel;F:\?件安;\其它?~1\Spinfire\Actify\Importers;F:\Java\jdk\bin;F:\software\MySQL\mysql-5.7.16-winx64\bin;F:\software\maven\apache-maven-3.5.0\bin;F:\software\SVN\bin;F:\software\apache-tomcat-8.5.16\bin;F:\software\php5.3;F:\software\php5.3\ext;C:\Program Files\SlikSvn\bin;F:\software\Git\Git\cmd;C:\Program Files\gradle-4.0\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_cache;C:\Program Files\nodejs\node_global;C:\Program Files\nodejs\node_modules;C:\Program Files\Redis\;C:\Program Files\TortoiseGit\bin;C:\Program Files\python3\Scripts\;C:\Program Files\python3\;C:\Program Files\Scripts\;C:\Program Files\;C:\Program Files (x86)\Python3\Scripts\;C:\Program Files (x86)\Python3\;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;;F:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="F:\software\maven\apache-maven-3.5.0\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="F:\software\maven\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="F:\Java\jdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs F:\software\maven\apache-maven-3.5.0\conf\settings.xml -s F:\software\maven\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="F:\Java\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="F:\Java\jdk\jre\lib\resources.jar;F:\Java\jdk\jre\lib\rt.jar;F:\Java\jdk\jre\lib\sunrsasign.jar;F:\Java\jdk\jre\lib\jsse.jar;F:\Java\jdk\jre\lib\jce.jar;F:\Java\jdk\jre\lib\charsets.jar;F:\Java\jdk\jre\lib\jfr.jar;F:\Java\jdk\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\software\maven\apache-maven-3.5.0"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.client.a.AppTest" name="testApp" time="0.004"/>
+</testsuite>

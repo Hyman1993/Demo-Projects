@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="sso-oauth2-demo">
+                
+        <property name="context-root" value="sso-oauth2-demo"/>
+                
+        <property name="java-output-path" value="/sso-oauth2-demo/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
